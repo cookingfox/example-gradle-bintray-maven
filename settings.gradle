@@ -1,0 +1,4 @@
+rootProject.name = 'example-gradle-bintray-maven'
+include 'shared'
+include 'first'
+

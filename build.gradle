@@ -1,0 +1,20 @@
+ext {
+    junit = 'junit:junit:4.12'
+}
+
+allprojects {
+    apply plugin: 'java'
+    apply plugin: 'idea'
+
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        testCompile rootProject.ext.junit;
+    }
+}
+
+subprojects {
+
+}
